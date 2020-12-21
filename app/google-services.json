@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "282871458763",
+    "firebase_url": "https://lucky-farmers-app-default-rtdb.firebaseio.com",
+    "project_id": "lucky-farmers-app",
+    "storage_bucket": "lucky-farmers-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282871458763:android:67bdb6b14d4b90d3a2a44e",
+        "android_client_info": {
+          "package_name": "in.codeandroid.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282871458763-d1i3j2ckeg2ht48ec53n83ut0sr18ihm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-bqp0D48M_HKzKlXGrC47FdQ3ZQVwemc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282871458763-d1i3j2ckeg2ht48ec53n83ut0sr18ihm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282871458763:android:1f992380a10d1625a2a44e",
+        "android_client_info": {
+          "package_name": "info.camposha.firebasecrudkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282871458763-d1i3j2ckeg2ht48ec53n83ut0sr18ihm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-bqp0D48M_HKzKlXGrC47FdQ3ZQVwemc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282871458763-d1i3j2ckeg2ht48ec53n83ut0sr18ihm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

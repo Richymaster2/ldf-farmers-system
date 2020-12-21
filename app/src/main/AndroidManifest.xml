@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="info.camposha.firebasecrudkotlin">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/edit_scientist"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.IntroActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.DashboardActivity" android:theme="@style/HomeTheme" android:label="Lucky Dairies LTD"></activity>
+        <activity android:name=".activities.SplashActivity" android:theme="@style/SplashTheme" >
+        </activity>
+
+        <activity
+            android:name=".activities.ScientistsActivity"
+            android:label="Field weights"
+            android:parentActivityName=".activities.DashboardActivity" />
+        <activity
+            android:name=".activities.CRUDActivity"
+            android:theme="@style/CRUDTheme"
+            android:label="Milk collection "
+            android:parentActivityName=".activities.DashboardActivity" />
+        <activity
+            android:name=".activities.DetailActivity"
+            android:label="Record details "
+            android:parentActivityName=".activities.ScientistsActivity" />
+    </application>
+
+</manifest>
